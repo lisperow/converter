@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import './App.css';
 
 import Header from './components/Header/Header';
 import Converter from './components/Converter/Converter';
@@ -8,13 +9,15 @@ import ListOfCurrencies from './components/ListOfCurrencies/ListOfCurrencies';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='container'>
         <Header />
-        <Link to='/'>Converter</Link>
-        <Link to='/currencies'>Currencies</Link>
+        <nav className='navigation'>
+          <Link className='link' to='/'>Converter</Link>
+          <Link className='link' to='/currencies'>Currencies</Link>
+        </nav>
+        <Route path='/' exact component={Converter} />
+        <Route path='/currencies' component={ListOfCurrencies} />
       </div>
-      <Route path='/' exact component={Converter} />
-      <Route path='/currencies' component={ListOfCurrencies} />
     </Router>
   );
 }
