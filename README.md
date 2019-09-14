@@ -15,6 +15,6 @@ Test:
 
 ### `npm test`
 
-Build
+Build:
 
 ### `npm run build`
