@@ -2587,6 +2587,11 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
+cashify@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/cashify/-/cashify-1.2.1.tgz#b00d9928f2d8f007eaa53d07c990b7a38b583bfd"
+  integrity sha512-KdXRCssKlsp+0ASKc+c2Juu4gWY6B5Mz4yhveTBbmOA99MKkytzP2eOtuQTkMZp5GdZqoCShRN4u5/ihuf//Ig==
+
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
