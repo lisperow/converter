@@ -1,18 +1,15 @@
 import React from 'react';
 import { render } from 'react-dom';
+import createStore from 'storeon';
+import StoreContext from 'storeon/react/context';
 import reducers from './reducers';
 import App from './App';
-
-/* eslint-disable no-underscore-dangle */
-const ext = window.__REDUX_DEVTOOLS_EXTENSION__;
-const devtoolMiddleware = ext && ext();
-/* eslint-enable */
 
 const store = createStore();
 
 render(
-  <Provider store={store}>
+  <StoreContext.Provider value={store}>
     <App />
-  </Provider>,
+  </StoreContext.Provider>,
   document.getElementById('root'),
 );
