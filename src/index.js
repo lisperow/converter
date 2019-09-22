@@ -2,10 +2,10 @@ import React from 'react';
 import { render } from 'react-dom';
 import createStore from 'storeon';
 import StoreContext from 'storeon/react/context';
-import reducers from './reducers';
+import currencies from './currencies.js';
 import App from './App';
 
-const store = createStore();
+const store = createStore([currencies]);
 
 render(
   <StoreContext.Provider value={store}>
