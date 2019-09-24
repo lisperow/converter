@@ -4,7 +4,7 @@ import './Converter.css';
 export default () => {
   return (
     <div>
-      <h2>Converter</h2>
+      <h2>Converter!</h2>
     </div>
   );
 }
