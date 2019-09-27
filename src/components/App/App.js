@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
-import Header from './components/Header/Header';
-import Converter from './components/Converter/Converter';
-import ListOfCurrencies from './components/ListOfCurrencies/ListOfCurrencies';
+import Header from '../Header/Header';
+import Converter from '../Converter/Converter';
+import ListOfCurrencies from '../ListOfCurrencies/ListOfCurrencies';
 
 function App() {
   return (
