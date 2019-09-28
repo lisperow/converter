@@ -1,5 +1,5 @@
-const host = 'https://openexchangerates.org/api/latest.json?app_id=';
+const host = 'https://openexchangerates.org/api/currencies.json';
 
 export default {
-    ratesUrl: () => [host, process.env.API_KEY].join(''),
+    ratesUrl: () => [host].join(''),
 }
