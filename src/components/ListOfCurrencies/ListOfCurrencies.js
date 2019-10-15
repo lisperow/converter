@@ -3,6 +3,6 @@ import './ListOfCurrencies.css';
 
 export default () => {
   return (
-    <h2>List of currencies</h2>
+    <h2 className="currencies-title">List of currencies</h2>
   );
 }
